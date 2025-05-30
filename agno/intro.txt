@@ -1,0 +1,19 @@
+
+
+agent - directly use the model - openai/groq/claude
+
+agent with tools - fetch specific data - use yfinance module
+
+agent with instructions - control the output - use only tabular data format
+
+agent with reasoning - think and analyze - generate a report
+
+agent with knowledge - RAG - uses vector/lancedb, embedder, reasoning tool - text2sql where it needs schema/columns/what not to do/etc
+
+agent with storage - when we need a state - resume chat from previous context - uses SQLite storage and session id
+
+agent with memory - use SQLite memory db. store state at user id level of all my interactions allowing agent to personalize response based on user preference
+
+multi agent team - using 3 modes: route, coordinate, collaborate
+
+
